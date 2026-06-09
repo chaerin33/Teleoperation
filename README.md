@@ -11,7 +11,6 @@ RGB-D 카메라 기반 실시간 핸드 트래킹 로봇 원격 조작 시스템
 
 <img width="1970" height="879" alt="piperine" src="https://github.com/user-attachments/assets/ebff80f0-7a3e-45a6-8742-82ab9c3c626a" />
 
-
 **동작 단계:**
 1. **안정화 단계** — 시작 시, 손 랜드마크 위치가 임계값 이내로 안정화될 때까지 대기한 후 명령을 수신합니다.
 2. **트래킹 단계** — 필터링된 자세를 로봇 팔에 지속적으로 출력합니다.
@@ -26,20 +25,23 @@ RGB-D 카메라 기반 실시간 핸드 트래킹 로봇 원격 조작 시스템
 - NumPy (`numpy`)
 - OpenCV (`opencv-python`)
 - SciPy (`scipy`)
-- Rainbow Robotics SDK ([`rbpodo`](https://github.com/RainbowRobotics/rbpodo))
+- Rainbow Robotics SDK ([`rbpodo`])
 
 ---
 
 ## 설치
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://[https://github.com/chaerin33/Teleoperation_RGB-D.git]
+mkdir Robot
+cd Robot
 pip install pyrealsense2 mediapipe numpy opencv-python scipy rbpodo
 ```
 
-> **참고:** Intel RealSense SDK는 시스템 레벨에서도 별도 설치가 필요합니다.
+> **참고:** Intel RealSense SDK는 별도 설치가 필요합니다.
 > [librealsense 설치 가이드](https://github.com/IntelRealSense/librealsense)를 참고하세요.
+> **참고:** Rainbow Robotics SDK는 별도 설치가 필요합니다.
+> [librealsense 설치 가이드](https://github.com/RainbowRobotics/rbpodo)를 참고하세요.
 
 ---
 
