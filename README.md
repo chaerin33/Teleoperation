@@ -25,7 +25,7 @@ RGB-D 카메라 기반 실시간 핸드 트래킹 로봇 원격 조작 시스템
 - NumPy (`numpy`)
 - OpenCV (`opencv-python`)
 - SciPy (`scipy`)
-- Rainbow Robotics SDK ([`rbpodo`])
+- Rainbow Robotics SDK (`rbpodo`)
 
 ---
 
@@ -40,7 +40,7 @@ pip install pyrealsense2 mediapipe numpy opencv-python scipy rbpodo
 
 > **참고:** Intel RealSense SDK는 별도 설치가 필요합니다.
 > [librealsense 설치 가이드](https://github.com/IntelRealSense/librealsense)를 참고하세요.
-> **참고:** Rainbow Robotics SDK는 별도 설치가 필요합니다.
+>  Rainbow Robotics SDK는 별도 설치가 필요합니다.
 > [librealsense 설치 가이드](https://github.com/RainbowRobotics/rbpodo)를 참고하세요.
 
 ---
